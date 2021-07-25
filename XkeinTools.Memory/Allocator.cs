@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace XkeinTools.Remote
+namespace XkeinTools.Memory
 {
     public class Allocator
     {
@@ -60,7 +60,7 @@ namespace XkeinTools.Remote
 
         private Func<int, IntPtr> _allocate;
         private Action<IntPtr> _deallocate;
-        private List<Container> containers;
+        private List<Container> containers = new List<Container>();
 
     }
 }

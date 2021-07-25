@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace XkeinTools.Remote
+namespace XkeinTools.Memory
 {
     class Memory
     {
@@ -82,14 +82,14 @@ namespace XkeinTools.Remote
                     unusedRanges.Add(new Range(usedRanges.Last().End, this.End));
                 }
 
-                Range fit = unusedRanges.Find(r => r.Length > length);
+                Range fit = unusedRanges.Find(r => r.Length >= length);
                 if (fit == default(Range))
                 {
                     memory = null;
                     return false;
                 }
 
-                memory = new Memory((IntPtr)fit.Start, fit.Length);
+                memory = new Memory((IntPtr)fit.Start, length);
                 _used.Add(memory);
                 return true;
             }
