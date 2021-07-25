@@ -39,16 +39,13 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="XkeinTools.Memory">
+      <HintPath>..\..\XkeinTools.Memory\bin\Debug\XkeinTools.Memory.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\XkeinTools.Remote\XkeinTools.Remote.csproj">
-      <Project>{B3D14BFA-7083-450D-BE81-62633409083A}</Project>
-      <Name>XkeinTools.Remote</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
