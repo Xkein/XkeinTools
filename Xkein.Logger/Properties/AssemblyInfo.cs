@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("XkeinTools.Memory")]
+[assembly: AssemblyTitle("Xkein.Logger")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("XkeinTools.Memory")]
+[assembly: AssemblyProduct("Xkein.Logger")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("617d301b-8b16-4ce8-b12b-4e0088ccf43d")]
+[assembly: Guid("48f4b76d-f046-4143-b9cd-72c1f213f1b4")]
 
 // Version information for an assembly consists of the following four values:
 //

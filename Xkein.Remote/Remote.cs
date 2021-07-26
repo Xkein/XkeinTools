@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using XkeinTools.Memory;
+using Xkein.Memory;
 
-namespace XkeinTools.Remote
+namespace Xkein.Remote
 {
     public class Remote
     {

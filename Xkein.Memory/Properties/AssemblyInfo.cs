@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("XkeinTools.Remote")]
+[assembly: AssemblyTitle("Xkein.Memory")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("XkeinTools.Remote")]
+[assembly: AssemblyProduct("Xkein.Memory")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b3d14bfa-7083-450d-be81-62633409083a")]
+[assembly: Guid("617d301b-8b16-4ce8-b12b-4e0088ccf43d")]
 
 // Version information for an assembly consists of the following four values:
 //

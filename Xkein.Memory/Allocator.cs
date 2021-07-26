@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace XkeinTools.Memory
+namespace Xkein.Memory
 {
     public class Allocator
     {
